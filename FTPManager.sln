@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4052064A-EF96-43EE-B92C-2CB6B0559107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPManager.Core", "FTPManager.Core\FTPManager.Core.csproj", "{2ECE4DBB-F7C1-4E1B-91D4-D71A645586FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPManager.Console", "FTPManager.Console\FTPManager.Console.csproj", "{52A3CA21-5006-4FF2-851E-CBD0918A7C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{51ED0B1B-9C2E-4AC6-83A6-0F7C236D52B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPManager.WPF", "FTPManager.WPF\FTPManager.WPF.csproj", "{78103F8C-C0B6-4F58-B356-11A93EA7D7AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECE4DBB-F7C1-4E1B-91D4-D71A645586FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECE4DBB-F7C1-4E1B-91D4-D71A645586FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECE4DBB-F7C1-4E1B-91D4-D71A645586FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECE4DBB-F7C1-4E1B-91D4-D71A645586FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A3CA21-5006-4FF2-851E-CBD0918A7C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A3CA21-5006-4FF2-851E-CBD0918A7C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A3CA21-5006-4FF2-851E-CBD0918A7C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A3CA21-5006-4FF2-851E-CBD0918A7C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78103F8C-C0B6-4F58-B356-11A93EA7D7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78103F8C-C0B6-4F58-B356-11A93EA7D7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78103F8C-C0B6-4F58-B356-11A93EA7D7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78103F8C-C0B6-4F58-B356-11A93EA7D7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2ECE4DBB-F7C1-4E1B-91D4-D71A645586FA} = {4052064A-EF96-43EE-B92C-2CB6B0559107}
+		{52A3CA21-5006-4FF2-851E-CBD0918A7C6B} = {51ED0B1B-9C2E-4AC6-83A6-0F7C236D52B8}
+		{78103F8C-C0B6-4F58-B356-11A93EA7D7AA} = {4052064A-EF96-43EE-B92C-2CB6B0559107}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE6F8EF8-702A-48D5-9386-4BD6441985E0}
+	EndGlobalSection
+EndGlobal
